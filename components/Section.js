@@ -1,9 +1,9 @@
-import tv from '@/public/tv.png';
-import icon2 from '@/public/icon2.png';
-import trophy from '@/public/trophy.png';
-import ucgen from '@/public/ucgen1.png';
-import daire from '@/public/daire.png';
-import green from '@/public/iconGreen.png';
+import tv from '@/public/tv.svg';
+import trophy from '@/public/trophy.svg';
+import rectangle from '@/public/rectangle.png';
+import tunnel from '@/public/tunnel.svg';
+import green from '@/public/icon2.png';
+import daire from '@/public/daire.png'
 import Image from 'next/image';
 export default function Section () {
     const features = [
@@ -12,13 +12,13 @@ export default function Section () {
           description:
             'Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.',
           image: trophy,
-          icon: ucgen,
+          icon: rectangle,
         },
         {
           name: 'Cursus amet',
           description:
             'Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.',
-          image: icon2,
+          image: tunnel,
           icon: green,
         },
         {

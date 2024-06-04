@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import Section from '@/components/Section';
 import BestOf from '@/components/BestOf';
+import WhyUs from '@/components/WhyUs';
 
 const navigation = [
   { name: 'Products', href: '#' },
@@ -140,6 +141,7 @@ export default function Dashboard() {
         </div>
         <Section/>
         <BestOf/>
+        <WhyUs/>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import image from '@/public/imageCard.png'
+import card from '@/public/imageCard.png'
 import background from '@/public/backGround.png'
 import basket from '@/public/shopping-cart.svg';
 export default function BestOf() {
@@ -10,7 +10,7 @@ export default function BestOf() {
           name: 'Title',
           desc: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
           href: '#',
-          imageSrc: image,
+          imageSrc: card,
           imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
           price: '$140',
         },
@@ -19,7 +19,7 @@ export default function BestOf() {
             name: 'Title',
             desc: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
             href: '#',
-            imageSrc: image,
+            imageSrc: card,
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
             price: '$140',
           },
@@ -28,7 +28,7 @@ export default function BestOf() {
             name: 'Title',
             desc: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
             href: '#',
-            imageSrc: image,
+            imageSrc: card,
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
             price: '$140',
           },
