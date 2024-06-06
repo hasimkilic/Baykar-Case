@@ -19,17 +19,17 @@ export default function GrowYour() {
     {
       name: "Dolor pharetra",
       icon: check,
-      iconRight: "",
+      iconRight: rightArrow,
       current: false,
     },
     {
       name: "Amet, fringilla",
       icon: search,
-      iconRight: "",
+      iconRight: rightArrow,
       current: false,
     },
-    { name: "Amet nibh", icon: search, iconRight: "", current: false },
-    { name: "Sed velit", icon: search, iconRight: "", current: false },
+    { name: "Amet nibh", icon: search, iconRight: rightArrow, current: false },
+    { name: "Sed velit", icon: search, iconRight: rightArrow, current: false },
   ];
   return (
     <div className="mx-auto max-w-7xl py-16 sm:px-6 lg:px-8">
@@ -61,7 +61,12 @@ export default function GrowYour() {
                     <Image src={item.icon} width={24} height={24} alt="icon" />
                     <span className="ml-5">{item.name}</span>
                     <Image
-                      className="ml-auto"
+                      className={classNames(
+                        item.current
+                          ? "opacity-100"
+                          : "opacity-0",
+                        "ml-auto"
+                      )}
                       src={item.iconRight}
                       width={24}
                       height={24}
@@ -74,7 +79,7 @@ export default function GrowYour() {
           </div>
         </div>
         <div className="w-3/5">
-          <Image src={desktops} width={1096} height={566} alt="desktops"/>
+          <Image src={desktops} width={1096} height={566} alt="desktops" />
         </div>
       </div>
     </div>
