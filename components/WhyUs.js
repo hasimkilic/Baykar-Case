@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import check from "../public/icons/check.svg";
-import background from "../public/icons/background2.png";
-import desktop from "../public/icons/desktop.png";
+import check from "@/public/icons/check.svg";
+import background from "@/public/icons/background2.png";
+import desktop from "@/public/icons/desktop.png";
 
 export default function WhyUs() {
   return (
@@ -28,7 +28,7 @@ export default function WhyUs() {
               Why join us
             </h2>
             <ul className="flex flex-col justify-start items-start gap-y-1.5 mt-6 text-lg text-gray-300">
-              <li className="flex justify-start items-center gap-x-2">
+              <li className="flex justify-center items-start gap-x-2">
                 <Image src={check} width={24} height={24} alt="check" />
                 <span className="font-light text-xl text-[#0F172A]">
                   Est et in pharetra magna adipiscing ornare aliquam.
@@ -58,8 +58,6 @@ export default function WhyUs() {
               </button>
             </div>
           </div>
-
-          <div className="mt-16 h-80 lg:mt-8 relative"></div>
         </div>
       </div>
     </div>

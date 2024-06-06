@@ -1,16 +1,18 @@
-"use client";
+'use client';
 import { useState } from "react";
 import Image from "next/image";
 
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 import shoes from "../../public/icons/shoes.png"
 import Section from "@/components/Section";
 import BestOf from "@/components/BestOf";
 import WhyUs from "@/components/WhyUs";
 import BecauseOfWhy from "@/components/BecauseOfWhy";
 import GrowYour from "@/components/GrowYour";
-
+import FooterTop from "@/components/FooterTop";
+import Footer from "@/components/Footer";
 const navigation = [
   { name: "Products", href: "#" },
   { name: "Solutions", href: "#" },
@@ -177,6 +179,8 @@ export default function Dashboard() {
         <WhyUs />
         <BecauseOfWhy />
         <GrowYour />
+        <FooterTop />
+        <Footer />
       </div>
     </div>
   );
