@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image';
-import card from '@/public/imageCard.png'
-import background from '@/public/backGround.png'
-import basket from '@/public/shopping-cart.svg';
+
+import card from '../public/icons/imageCard.png'
+import background from '../public/icons/backGround.png'
+import basket from '../public/icons/shopping-cart.svg';
+
 export default function BestOf() {
     const products = [
         {
@@ -79,6 +81,8 @@ export default function BestOf() {
                     src={basket}
                     className='inset-0 w-6 h-6'
                     alt='basket'
+                    width={24}
+                    height={24}
                     />
                     <span>Buy Now</span>
                 </a>

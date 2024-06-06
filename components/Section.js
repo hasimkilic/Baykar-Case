@@ -1,10 +1,10 @@
-import tv from '@/public/tv.svg';
-import trophy from '@/public/trophy.svg';
-import rectangle from '@/public/rectangle.png';
-import tunnel from '@/public/tunnel.svg';
-import green from '@/public/icon2.png';
-import daire from '@/public/daire.png'
 import Image from 'next/image';
+import tv from '../public/icons/tv.svg';
+import trophy from '../public/icons/trophy.svg';
+import rectangle from '../public/icons/rectangle.png';
+import tunnel from '../public/icons/tunnel.svg';
+import green from '../public/icons/icon2.png';
+import daire from '../public/icons/daire.png'
 export default function Section () {
     const features = [
         {
