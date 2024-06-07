@@ -49,7 +49,7 @@ export default function HeaderMain() {
           </a>
         </div>
       </div>
-      <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow flex flex-col border">
+      <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow flex flex-col">
         <div className="lg:relative max-w-xl lg:w-[486px] lg:h-[423px]">
           <span className="bg-[#FBBF24] rounded-[50px] w-[200px] lg:w-[367px] lg:h-[372px] lg:absolute lg:inset-0 lg:top-7 lg:right-5 mx-auto "></span>
           <Image
