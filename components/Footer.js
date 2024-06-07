@@ -180,7 +180,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div>
+              <div className="mt-10 md:mt-0">
                 <h3 className="text-md font-semibold leading-6 text-white">
                   Support
                 </h3>

@@ -37,7 +37,7 @@ export default function GrowYour() {
   ];
   return (
     <div className="mx-auto max-w-7xl py-16 sm:px-6 lg:px-8">
-      <div className="flex flex-col items-start justify-between pt-8 pb-12 gap-y-4">
+      <div className="flex flex-col text-center lg:text-left items-start justify-between pt-8 pb-12 gap-y-4">
         <h2 className="text-6xl leading-[61px] font-bold text-[#0F172A]">
           Grow your collection
         </h2>
@@ -48,7 +48,7 @@ export default function GrowYour() {
           proin neque placerat at bibendum quam tellus.
         </p>
       </div>
-      <div className="flex justify-between items-start w-full gap-x-2">
+      <div className="flex flex-col md:flex-row items-center lg:justify-between lg:items-start w-full gap-x-2">
         <div className="w-1/4 mt-4">
           <div className="flex flex-col justify-start items-start">
             <ul className="flex flex-col justify-start gap-y-3">

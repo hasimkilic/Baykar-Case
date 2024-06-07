@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "world-section": "url('../public/icons/world.png')",
+        "best-of": "url('../public/icons/backGround.png')",
       },
     },
   },
