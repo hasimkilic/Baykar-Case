@@ -1,16 +1,16 @@
 "use client";
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
-    { name: "Products", href: "#" },
-    { name: "Solutions", href: "#" },
-    { name: "Pricing", href: "#" },
-    { name: "Resours", href: "#" },
-    { name: "Log In", href: "#" },
-  ];
+  { name: "Products", href: "#" },
+  { name: "Solutions", href: "#" },
+  { name: "Pricing", href: "#" },
+  { name: "Resours", href: "#" },
+  { name: "Log In", href: "#" },
+];
 export default function Header() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav
@@ -32,7 +32,35 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 5.5H13"
+                stroke="#78350F"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21 12.5H8"
+                stroke="#78350F"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21 19.5H3"
+                stroke="#78350F"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
