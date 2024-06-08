@@ -48,10 +48,10 @@ export default function GrowYour() {
           proin neque placerat at bibendum quam tellus.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center lg:justify-between lg:items-start w-full gap-x-2">
+      <div className="flex flex-col md:flex-row items-start pl-3 lg:pl-0 lg:justify-between w-full gap-x-2">
         <div className="w-1/4 mt-4">
           <div className="flex flex-col justify-start items-start">
-            <ul className="flex md:flex-col justify-start gap-y-3">
+            <ul className="flex md:flex-col justify-start items-start gap-y-3">
               {navigation.map((item) => (
                 <button key={item.name}>
                   <li
@@ -82,7 +82,7 @@ export default function GrowYour() {
             </ul>
           </div>
         </div>
-        <div className="w-3/4">
+        <div className="w-3/4 mt-10 lg:mt-0">
           <div className="w-full">
             <Image src={desktops} width={1096} height={556} alt="desktops" className="object-fill"/>
           </div>
