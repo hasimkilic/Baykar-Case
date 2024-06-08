@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 export default function Dashboard() {
   return (
-    <div className="bg-[#fffbed]">
+    <div className="bg-[#fffbed] overflow-x-hidden">
       <Header />
       <div className="isolate pt-14">
         <HeaderMain />

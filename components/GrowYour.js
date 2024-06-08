@@ -51,7 +51,7 @@ export default function GrowYour() {
       <div className="flex flex-col md:flex-row items-center lg:justify-between lg:items-start w-full gap-x-2">
         <div className="w-1/4 mt-4">
           <div className="flex flex-col justify-start items-start">
-            <ul className="flex flex-col justify-start gap-y-3">
+            <ul className="flex md:flex-col justify-start gap-y-3">
               {navigation.map((item) => (
                 <button key={item.name}>
                   <li
